@@ -13,3 +13,8 @@ computerMove = 'kamień';
 printMessage('Zagrałem ' + computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
 playerMove = 'papier';
 printMessage('Zagrałem ' + playerMove + '');
+
+
+var randomNumber;
+randomNumber = Math.floor(Math.random() * 19 + 1);
+printMessage('Wylosowana liczba to: ' + randomNumber);
