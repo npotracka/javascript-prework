@@ -1,0 +1,82 @@
+/*global*/
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    text-align: center;
+    background: #202021;
+    color:beige;
+    line-height: 1.3;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 108px 0;
+}
+
+/*tytuł*/
+
+.splash-inner {
+    top: 10%;
+}
+
+.page-title {
+    color:bisque;
+    font-style: italic;
+    font-size: 40px;
+    margin: 30px 30px; 
+}
+
+.page-title::after {
+    position: absolute;
+    content: '';
+    bottom: -10px;
+    left: 50%;
+    width: 800px;
+    height: 5px;
+    transform: translateX(-50%);
+    background: bisque;
+}
+
+.icons {
+    top: 20%;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.icons i {
+    padding: 10px 20px;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 160px;
+    margin: 24px auto 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 5px;
+    border-style: solid;
+    background-color:azure;
+    background-position: 100% 0;
+    background-size: 300%;
+    border-color: #481a2c;
+}
+
+.message {
+    padding-top: 30px;
+    color: red;
+}
