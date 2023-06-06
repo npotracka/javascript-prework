@@ -3,14 +3,33 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons"></div>
-		<div id="messages"></div>
-	</div>
+	<header class="splash">
+		<div class="splash-inner">
+			<div class="container">
+				<h1 class="page-title">kamień, papier, nożyce</h1>
+			</div>
+		</div>
+	</header>
+	<section class="container">
+		<div class="icons">
+			<i class="fa-regular fa-hand-back-fist"></i>
+			<i class="fa-regular fa-hand"></i>
+			<i class="fa-regular fa-hand-scissors"></i>
+		</div>
+	</section>
+	<section class="container">
+		<div id="buttons">
+            <button class="btn" id="button-rock" type="button">kamień</button>
+            <button class="btn" id="button-paper" type="button">papier</button>
+            <button class="btn" id="button-scissors" type="button">nożyce</button>    
+        </div>
+		<div class="message" id="messages"></div>
+	</section>
     <script src="functions.js"></script>
-	<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
